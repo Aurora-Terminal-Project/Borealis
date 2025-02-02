@@ -4,12 +4,12 @@ Borealis is my personal NeoVim configuration. It is designed to be an alternativ
 
 ## Features
 
-- Plugin management with [Lazy.nvim]("https://github.com/folke/lazy.nvim"),
+- Plugin management with [Lazy.nvim](https://github.com/folke/lazy.nvim),
 - Pre-configured keymaps for an improved workflow,
 - Auto-formatting and linting,
 - Enhanced UI with themes, status line, and file explorer,
-- Git integration with [LazyGit]("https://github.com/jesseduffield/lazygit") and [GitSigns]("https://github.com/lewis6991/gitsigns.nvim"),
-- LSP support with [Mason]("https://github.com/williamboman/mason.nvim") and [LSPConfig]("https://github.com/neovim/nvim-lspconfig"),
+- Git integration with [LazyGit](https://github.com/jesseduffield/lazygit) and [GitSigns](https://github.com/lewis6991/gitsigns.nvim),
+- LSP support with [Mason](https://github.com/williamboman/mason.nvim) and [LSPConfig](https://github.com/neovim/nvim-lspconfig),
 - Multiple Plugins for better text manipulation and search,
 
 ## Installation
@@ -18,10 +18,10 @@ Borealis is my personal NeoVim configuration. It is designed to be an alternativ
 
 Ensure you have the following installed:
 
-- [NeoVim]("https://github.com/neovim/neovim") (>= 0.10)
-- [Git]("https://git-scm.com/")
-- [Nerd Fonts]("https://www.nerdfonts.com/") (For proper UI rendering)
-- [Node.js]("https://nodejs.org/") (For LSP support)
+- [NeoVim](https://github.com/neovim/neovim) (>= 0.10)
+- [Git](https://git-scm.com/)
+- [Nerd Fonts](https://www.nerdfonts.com/) (For proper UI rendering)
+- [Node.js](https://nodejs.org/) (For LSP support)
 
 ### Setup
 
@@ -78,7 +78,7 @@ nvim
 
 ### Keymaps
 
-You can find the keymaps [here]("keymaps.md").
+You can find the keymaps [here](keymaps.md).
 
 ### Customization
 
@@ -94,7 +94,7 @@ If you find any issues or have suggestions, feel free to open an issue or create
 
 ## License
 
-This project is licensed under the GPL-3.0 License. See the [LICENSE]("LICENSE") file for details.
+This project is licensed under the GPL-3.0 License. See the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgements
 
