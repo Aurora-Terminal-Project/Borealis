@@ -1,0 +1,25 @@
+# Ignore compiled and temporary files
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# Ignore Neovim plugin and cache directories
+.cache/
+.local/
+.undo/
+.session/
+.vimswap/
+.viminfo
+.nvimlog
+lazy-lock.json
+
+# Ignore log files
+*.log
+
+# Ignore backup files
+*~
+
+# Ignore Lazy.nvim installation files
+lazygit.tar.gz
+lazygit
