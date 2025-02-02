@@ -100,4 +100,5 @@ This project is licensed under the GPL-3.0 License. See the [LICENSE](LICENSE) f
 
 - [Lazy.nvim](https://github.com/folke/lazy.nvim) for plugin management.
 - [Cyberdream](https://github.com/username/cyberdream) for the theme inspiration.
+- [Josean](https://www.josean.com/posts/how-to-setup-neovim-2024) for the basic design and implementations.
 - All plugin authors whose amazing work makes this configuration possible.
