@@ -89,6 +89,10 @@ In order to customize the settings, you can edit the following files:
 - `core/keymaps.lua`: Basic keymaps
 - `plugins/*.lua`: Plugin configurations
 
+## Demo
+
+[borealis.webm](https://github.com/user-attachments/assets/f9f00a33-ba21-4858-a096-0634376c99f0)
+
 ## Contributing
 
 If you find any issues or have suggestions, feel free to open an issue or create a pull request.
