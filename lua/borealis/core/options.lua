@@ -48,3 +48,6 @@ opt.splitright = true
 opt.splitbelow = true
 
 opt.swapfile = false
+
+vim.g.cmp_enabled = false
+vim.g.copilot_enabled = true
