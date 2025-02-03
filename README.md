@@ -1,16 +1,16 @@
-# Borealis - A NeoVim Config
+# ✨ Borealis 🌌
 
-Borealis is my personal NeoVim configuration. It is designed to be an alternative to IDEs for efficiency and flexibility as well Git, Copilot and LSP integration.
+Borealis is a new NeoVim config that aims to be an alternative to modern IDEs. It is designed for efficiency and flexibility and implements Git, AI, LSP and UI Enhancement amongst all those IDE features we've gotten used to recently.
 
 ## Features
 
 - Plugin management with [Lazy.nvim](https://github.com/folke/lazy.nvim),
 - Pre-configured keymaps for an improved workflow,
-- Auto-formatting and linting,
+- Auto-formatting, linting, and completion,
 - Enhanced UI with themes, status line, and file explorer,
 - Git integration with [LazyGit](https://github.com/jesseduffield/lazygit) and [GitSigns](https://github.com/lewis6991/gitsigns.nvim),
 - LSP support with [Mason](https://github.com/williamboman/mason.nvim) and [LSPConfig](https://github.com/neovim/nvim-lspconfig),
-- Multiple Plugins for better text manipulation and search,
+- Multiple Plugins for better text manipulation and search.
 
 ## Installation
 
@@ -22,6 +22,7 @@ Ensure you have the following installed:
 - [Git](https://git-scm.com/)
 - [Nerd Fonts](https://www.nerdfonts.com/) (For proper UI rendering)
 - [Node.js](https://nodejs.org/) (For LSP support)
+- GitHub Pro / Copilot subscription (Optional for AI use)
 
 ### Setup
 
