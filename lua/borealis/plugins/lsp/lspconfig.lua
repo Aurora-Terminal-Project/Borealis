@@ -135,30 +135,30 @@ return {
 					},
 				})
 			end,
-			["omnisharp_mono"] = function()
-				lspconfig["omnisharp_mono"].setup({
-					cmd = { "/home/sp0k/.omnisharp/run" },
-					capabilities = capabilities,
-					settings = {
-						RoslynExtensionsOptions = {
-							InlayHintsOptions = {
-								EnableForParameters = true,
-								ForLiteralParameters = true,
-								ForIndexerParameters = true,
-								ForObjectCreationParameters = true,
-								ForOtherParameters = true,
-								SuppressForParametersThatDifferOnlyBySuffix = false,
-								SuppressForParametersThatMatchMethodIntent = false,
-								SuppressForParametersThatMatchArgumentName = false,
-								EnableForTypes = true,
-								ForImplicitVariableTypes = true,
-								ForLambdaParameterTypes = true,
-								ForImplicitObjectCreatio = true,
-							},
-						},
-					},
-				})
-			end,
+			-- ["omnisharp"] = function()
+			-- 	lspconfig["omnisharp"].setup({
+			-- 		cmd = { "mono", "~/.omnisharp/OmniSharp.exe" },
+			-- 		capabilities = capabilities,
+			-- 		settings = {
+			-- 			RoslynExtensionsOptions = {
+			-- 				InlayHintsOptions = {
+			-- 					EnableForParameters = true,
+			-- 					ForLiteralParameters = true,
+			-- 					ForIndexerParameters = true,
+			-- 					ForObjectCreationParameters = true,
+			-- 					ForOtherParameters = true,
+			-- 					SuppressForParametersThatDifferOnlyBySuffix = false,
+			-- 					SuppressForParametersThatMatchMethodIntent = false,
+			-- 					SuppressForParametersThatMatchArgumentName = false,
+			-- 					EnableForTypes = true,
+			-- 					ForImplicitVariableTypes = true,
+			-- 					ForLambdaParameterTypes = true,
+			-- 					ForImplicitObjectCreatio = true,
+			-- 				},
+			-- 			},
+			-- 		},
+			-- 	})
+			-- end,
 			["rust_analyzer"] = function()
 				lspconfig["rust_analyzer"].setup({
 					capabilities = capabilities,

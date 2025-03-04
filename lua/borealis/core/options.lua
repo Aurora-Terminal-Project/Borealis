@@ -20,6 +20,7 @@ vim.api.nvim_create_autocmd("FileType", {
 	pattern = {
 		"typst",
 		"markdown",
+		"mdx",
 	},
 	callback = function()
 		vim.opt_local.wrap = true
@@ -48,6 +49,7 @@ opt.splitright = true
 opt.splitbelow = true
 
 opt.swapfile = false
+opt.cmdheight = 0
 
-vim.g.cmp_enabled = false
-vim.g.copilot_enabled = true
+vim.g.cmp_enabled = true
+vim.g.copilot_enabled = false
