@@ -5,23 +5,56 @@ return {
 		"MunifTanjim/nui.nvim",
 		"rcarriga/nvim-notify",
 	},
-
 	config = function()
-		local noice = require("noice")
-
-		noice.setup({
-			lsp = {
-				override = {
-					["vim.lsp.util.convert_input_to_markdown_lines"] = true,
-					["vim.lsp.util.stylize_markdown"] = true,
-					["cmp.entry.get_documentation"] = true,
+		require("noice").setup({
+			cmdline = {
+				enabled = true,
+				view = "cmdline_popup",
+				format = {
+					cmdline = { icon = " " },
+					search_down = { icon = " " },
+					search_up = { icon = " " },
+					lua = { icon = " " },
+					help = { icon = " " },
 				},
 			},
-
+			views = {
+				cmdline = {
+					backend = "popup",
+					relative = "editor",
+					position = {
+						row = "100%",
+						col = 0,
+					},
+					size = {
+						height = "auto",
+						width = "100%",
+					},
+					border = {
+						style = "none",
+					},
+					win_options = {
+						winhighlight = {
+							Normal = "NoiceCmdline",
+							IncSearch = "",
+							CurSearch = "",
+							Search = "",
+						},
+					},
+				},
+			},
+			messages = { enabled = false },
+			popupmenu = { enabled = false },
+			notify = { enabled = false },
+			lsp = {
+				progress = { enabled = false },
+				hover = { enabled = false },
+				signature = { enabled = false },
+				message = { enabled = false },
+			},
 			presets = {
-				bottom_search = true,
-				command_palette = true,
-				long_message_to_split = true,
+				bottom_search = false,
+				command_palette = false,
 				inc_rename = false,
 				lsp_doc_border = false,
 			},

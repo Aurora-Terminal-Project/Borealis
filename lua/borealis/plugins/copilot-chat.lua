@@ -4,7 +4,7 @@ return {
 		dependencies = {
 			{ "github/copilot.vim" },
 			{ "nvim-lua/plenary.nvim", branch = "master" },
-			{ "nvim-telescop/telescope.nvim" },
+			{ "nvim-telescope/telescope.nvim" },
 		},
 		build = "make tiktoken",
 		opts = {
@@ -16,6 +16,7 @@ return {
 			auto_follow_cursor = false,
 		},
 		config = function(_, opts)
+			enabled = false
 			local chat = require("CopilotChat")
 			local select = require("CopilotChat.select")
 

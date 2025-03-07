@@ -25,7 +25,7 @@ return {
 				"astro",
 				"bashls",
 				"csharp_ls",
-				"omnisharp_mono",
+				-- "omnisharp",
 				"ast_grep",
 				"clangd",
 				"cmake",
