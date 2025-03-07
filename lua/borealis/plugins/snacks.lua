@@ -74,7 +74,6 @@ return {
 				},
 			},
 		},
-		-- TODO: Find which plugin to update the got symbols
 		debug = { enabled = true },
 		dim = { enabled = true },
 		explorer = { enabled = true },
